@@ -7,7 +7,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #000000;
 }
 
 .title {
@@ -27,7 +27,7 @@ body {
 button {
     padding: 10px 20px;
     margin-right: 10px;
-    background-color: #007bff;
+    background-color: #FFFF00;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -35,7 +35,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #FFFF00;
 }
 
 body {
