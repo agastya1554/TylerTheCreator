@@ -1,5 +1,11 @@
 body {
     font-family: Arial, sans-serif;
+
+    /* Set background image */
+    background-image: url('Img/TtcHomePage.png');
+    /* Adjust background properties */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent image from repeating */
 }
 
 .header {
@@ -36,12 +42,4 @@ button {
 
 button:hover {
     background-color: #8e8e1d;
-}
-
-body {
-    /* Set background image */
-    background-image: url('Img/TtcHomePage.png');
-    /* Adjust background properties */
-    background-size: cover; /* Cover the entire background */
-    background-repeat: no-repeat; /* Prevent image from repeating */
 }
