@@ -7,7 +7,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #000000;
+    background-color: #FFFF00;
 }
 
 .title {
@@ -28,14 +28,14 @@ button {
     padding: 10px 20px;
     margin-right: 10px;
     background-color: #FFFF00;
-    color: #fff;
+    color: #FFFF00;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #FFFF00;
+    background-color: #8e8e1d;
 }
 
 body {
