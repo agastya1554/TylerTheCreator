@@ -1,11 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-
-    /* Set background image */
-    background-image: url('Img/TtcHomePage.png');
-    /* Adjust background properties */
-    background-size: cover; /* Cover the entire background */
-    background-repeat: no-repeat; /* Prevent image from repeating */
+    margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -14,28 +10,31 @@ body {
     align-items: center;
     padding: 20px;
     background-color: #FFFF00;
-    color: white; /* Set text color to white */
+    color: white;
 }
 
 .title {
-    width: 60%;
+    font-size: 24px;
 }
 
 .menu {
-    width: 40%;
     text-align: right;
 }
 
+.content {
+    margin: 20px;
+}
+
 .image {
-    text-align: center;
-    margin-top: 20px;
+    text-align: right;
+    margin-right: 20px;
 }
 
 button {
     padding: 10px 20px;
     margin-right: 10px;
-    background-color: red; /* Set button background color to red */
-    color: white; /* Set button text color to white */
+    background-color: red;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -43,4 +42,19 @@ button {
 
 button:hover {
     background-color: #8e8e1d;
+}
+
+.explore-button {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.explore-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
