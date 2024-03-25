@@ -37,3 +37,11 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+body {
+    /* Set background image */
+    background-image: url('Img/TtcHomePage.png');
+    /* Adjust background properties */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+}
